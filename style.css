@@ -7,10 +7,7 @@ p {font-size: 14px;}
 .man{
   position: fixed;
   z-index: 1000;
-  min-width: 100%;
-}
-.man-1{
-  z-index: 100;
+  width: 100%;
 }
 .navbar {
     padding-top: 15px;
@@ -28,6 +25,12 @@ p {font-size: 14px;}
 .navbar-brand{
 	font-size: 30px;
 	padding-left: 50px;
+}
+@media(max-width:572px){
+  .navbar-brand{
+  	font-size: 30px;
+  	padding-left: 10px;
+  }
 }
 .hero {
 	  background: url('img/banner.jpg') no-repeat center center;
@@ -234,26 +237,35 @@ letter-spacing: 15px;
 }
 #in-1{
   border: 1px solid #e74c3c;
-  width: 370px;
-  height: 45px;
   padding-left: 10px;
+  height: 45px;
+}
+@media(max-width:572px){
+  #in-1{
+    margin-bottom: 15px;
+  }
 }
 #in-2{
   background-color: #e74c3c;
   height: 45px;
   color: #ecf0f1;
-  border: none;
   margin-top: 15px;
   opacity: .9;
   width: 200px;
+  font-size: 20px;
+  border: 1px solid #e74c3c;
 }
 #in-3{
-  width: 754px;
-  height: 100px;
+  height: 120px;
   border: 1px solid #e74c3c;
-  margin-top: 20px;
   padding-left: 10px;
+  margin-top: 15px;
 }
-#qr{
-  margin-top: 20px;
+.man-1{
+  z-index: 100;
+}
+@media(max-width:572px){
+  #qr{
+  display: none;
+  }
 }

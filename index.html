@@ -52,7 +52,7 @@
    <!--<span class="glyphicon glyphicon-user logo-small"></span>-->
    <div class="strip text-center"><img src="img/about.png" alt=" "/></div>
    <p id="about-1">Hello,I am Manish.
-   I love My Family and Friends Because I am Always Happy With them.
+   I love My Family and Friends Because I am Always Happy With us.
    After Wasting Almost Two and Half Years I Relise that Without Study not any Option  Aviliabe to Survibe in life.
    So I start Study Contenously.I am always Passinate About Computers and Technology.I love to Design UI. So, I want to become a Frontend developer.
    I know the Programming Language like C/C++, JS. Also know HTML5 ,CSS3 ,Bootstrap ,Jquery,Data Structure ,Algorithm.
@@ -240,12 +240,18 @@
   <div class="text-center"><img src="img/con1.png" alt=" "/></div>
   <div class="row">
     <div class="col-md-7 col-sm-6"><div class="thumbnail" id="map" style="height:200px;"></div>
-   <form method="post">
-    <input id="in-1" type="text" name="name" placeholder="Name" required>&nbsp;&nbsp;
-    <input id="in-1" type="email" name="email" placeholder="E-mail"></br>
-    <textarea type="text" placeholder="Message" id="in-3"></textarea>
-    <input id="in-2"  type="submit" value="Say Hi to Me!">
-  </form>
+     <form method="post">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <input id="in-1" class="form-control" type="text" name="name" placeholder="Name" required>
+          </div>
+          <div class="col-md-6 col-sm-6">
+              <input id="in-1" class="form-control" type="email" name="email" placeholder="E-mail" required>
+          </div>
+        </div>
+        <textarea type="text" class="form-control" placeholder="Message" id="in-3"></textarea>
+        <input id="in-2" class="form-control" type="submit" value="Say Hi to Me!">
+      </form>
     </div>
     <div class="col-md-5 col-sm-6 text-center">
       <div  style="height:450px;">
@@ -258,7 +264,7 @@
           <h4><strong>Mob:+91-9733377981</strong></h4></br>
           <a  href="img/Resume.pdf" type="button" class="btn btn-danger" name="button" download="resume" style="margin-top:10px;">Download Resume Click / Scan QR</a>
       </br>
-          <img src="img/qr.png" alt="QR code" style="height:100px;width:100px;" id="qr">
+          <img src="img/qr.png" alt="QR code" style="height:100px;width:100px;" id="qr-1">
         </div>
       </div>
     </div>
@@ -284,9 +290,9 @@
 </div>
 
 <nav class="navbar man-1 navbar-fixed-bottom text-right" style="padding-bottom:0px;">
-  <div class="container-fluid">
-    <h5 style="color:white;">Scan It!</h5>
-    <img src="img/qrformobile.png" alt=" "style="height:100px;width:100px;" id="qr">
+  <div class="container-fluid" id="qr">
+    <h5 style="color:black;">Scan It!</h5>
+    <img src="img/qrformobile.png" alt=" "style="height:100px;width:100px;">
   </div>
 </nav>
 <!--Google Api-->

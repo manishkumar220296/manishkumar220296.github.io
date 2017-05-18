@@ -8,6 +8,7 @@ p {font-size: 14px;}
   position: fixed;
   z-index: 1000;
   width: 100%;
+  display: none;
 }
 .navbar {
     padding-top: 15px;
@@ -247,12 +248,12 @@ letter-spacing: 15px;
 }
 #in-2{
   background-color: #e74c3c;
-  height: 45px;
   color: #ecf0f1;
-  margin-top: 15px;
+  height: 40px;
+margin-top: 10px;
   opacity: .9;
-  width: 200px;
   font-size: 20px;
+  width: 30%;
   border: 1px solid #e74c3c;
 }
 #in-3{
